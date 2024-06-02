@@ -110,7 +110,7 @@ jobs:
           python3 -m pytest --cov=gptcache --cov-append --cov-report xml:coverage.xml ./tests/unit_tests/processor/
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3.1.0
+        uses: codecov/codecov-action@v3.1.6
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage.xml
