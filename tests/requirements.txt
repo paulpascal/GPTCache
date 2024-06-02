@@ -25,6 +25,6 @@ safetensors
 typing_extensions<4.6.0
 stability-sdk
 grpcio==1.53.0
-protobuf==3.20.0
+protobuf==3.20.3
 milvus==2.2.8
 pymilvus==2.2.8
